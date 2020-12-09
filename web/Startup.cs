@@ -55,8 +55,8 @@ namespace web
 
             app.UseRouting();
 
-            app.UseAuthentication();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -64,13 +64,14 @@ namespace web
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-
                 endpoints.MapRazorPages();
             });
 
-            app.UseSwagger();
-            app.UseSwaggerUI(c => {c.SwaggerEndpoint("/api/v1/swagger.json", "My API v1");
-            });
+        app.UseSwagger();
+        app.UseSwaggerUI(c =>
+        {
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+        });
         }
     }
 }
