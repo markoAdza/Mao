@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using web.Data;
 using web.Models;
+using web.Filters;
 
 namespace web.Controllers_Api
 {
@@ -78,6 +79,8 @@ namespace web.Controllers_Api
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
+        [ApiKeyAuth]
+
         public async Task<ActionResult<Menu>> PostMenu(Menu menu)
         {
             _context.Menus.Add(menu);
