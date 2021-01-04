@@ -42,4 +42,5 @@ Nisva imela posebnega plana glede delitev dela. Ko je imel nekdo čas si je pogl
 Tako sva si delo enakomerno razdelila. Imava sled dela skozi commit-e.
 
 ## Slika podatkovnega modela
+![er](https://user-images.githubusercontent.com/73660916/103558439-f667a700-4eb4-11eb-8e61-d60c2c0265e0.png)
 
