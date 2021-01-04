@@ -17,6 +17,8 @@ Zaposleni v restavraciji lahko urejajo ponudbo, prejemajo narocila ter jih ureja
 ![order](https://user-images.githubusercontent.com/73660916/103550742-a505ea80-4ea9-11eb-9bae-d71745bfa260.PNG)
 ![rating](https://user-images.githubusercontent.com/73660916/103550743-a505ea80-4ea9-11eb-8e81-b4b1c9297319.PNG)
 ![menuAPP](https://user-images.githubusercontent.com/73660916/103551137-34130280-4eaa-11eb-993e-aa6c1d1dea0d.png)
+![addmenu](https://user-images.githubusercontent.com/73660916/103553567-e6989480-4ead-11eb-96ac-b3e4efb4152a.png)
+
 
 ## Delovaje celotnega sistema
 
